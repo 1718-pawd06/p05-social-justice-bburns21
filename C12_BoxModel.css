@@ -1,0 +1,73 @@
+/*
+* Brooke Burns
+* March 27,2018
+*
+*/
+
+
+/* The universal selector */
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+/* Put body attributes here */
+body {
+	margin: 25px;
+}
+
+header{
+	background-color: red;
+	text-align: center;
+	border-bottom: 3px solid black;
+}
+
+main{
+    padding-top: 30px;
+}
+
+p {
+	font-size: 20px;
+	line-height:25px;
+	padding: 5px 0px;
+}
+
+footer{
+    border-top: 3px solid black;
+    clear: both;
+}
+
+h2{
+	padding: 10px 0px;
+}
+
+ul {
+	padding-left:25px;
+	font-size:20px;
+	line-height:25px;
+}
+
+.topimg{
+        float: left;
+        border: 3px dotted black;
+        margin-left: 10px;
+        margin-right: 10px;
+        width:300px;
+}
+.middleimage{
+        border: 3px solid black;
+        margin: 5px;
+        width: 250px;
+}
+
+.bottomimage{
+        float: right;
+        border: 3px solid blue;
+        margin: 0px 0px 10px 10px;
+        clear: right;
+        width: 250px;
+}
